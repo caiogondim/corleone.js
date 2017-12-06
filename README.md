@@ -4,7 +4,7 @@
 
 <br>
 
-Express middleware for streaming video.
+Tiny DOM utilities.
 
 ## Installation
 
