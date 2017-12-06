@@ -1,4 +1,4 @@
-<img src="http://rawgit.com/caiogondim/corleone.js/master/logo/logo.svg">
+<img src="https://cdn.rawgit.com/caiogondim/corleone.js/master/logo/logo.svg">
 
 <h1 align="center">corleone.js</h1>
 
