@@ -12,6 +12,8 @@ Tiny DOM utilities.
 npm install -S corleone
 ```
 
+## Usage
+
 ## API
 
 ---
