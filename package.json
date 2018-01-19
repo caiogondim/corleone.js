@@ -26,14 +26,10 @@
     "safe-chain": "^3.0.1"
   },
   "jest": {
-    "roots": [
-      "test/"
-    ],
     "collectCoverage": true,
     "collectCoverageFrom": [
-      "lib/*.js"
-    ],
-    "coverageDirectory": "coverage",
-    "testRegex": ".js"
+       "lib/**/*.js"
+     ],
+    "testRegex": "./test/.*/*.js$"
   }
 }
