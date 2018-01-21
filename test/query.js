@@ -1,5 +1,13 @@
 const dom = require('../lib')
 
+beforeEach(() => {
+  document.body.innerHTML = ''
+})
+
+afterEach(() => {
+  document.body.innerHTML = ''
+})
+
 test('works as an alias for document.querySelector', () => {
   document.body.innerHTML = `
     <div class="foo">
