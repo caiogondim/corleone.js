@@ -3,7 +3,7 @@
 <h1 align="center">corleone.js</h1>
 
 <div align="center">
-  <img src="http://travis-ci.org/caiogondim/corleone.js.svg?branch=master" alt="Travis CI"> <img src="http://img.badgesize.io/caiogondim/strict-dict.js/master/src/index.js?compression=gzip"> <img src="https://codecov.io/gh/caiogondim/strict-dict.js/branch/master/graph/badge.svg" alt="Code coverage">
+  <img src="http://travis-ci.org/caiogondim/corleone.js.svg?branch=master" alt="Travis CI"> <img src="http://img.badgesize.io/caiogondim/corleone.js/master/build/corleone.umd.js?compression=gzip"> <img src="https://codecov.io/gh/caiogondim/strict-dict.js/branch/master/graph/badge.svg" alt="Code coverage">
 </div>
 
 <br>
