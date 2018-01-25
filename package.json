@@ -1,7 +1,7 @@
 {
   "scripts": {
     "test": "jest",
-    "build": "microbundle -i lib/index.js -o build/"
+    "build": "webpack && minify build/corleone.umd.js -d build"
   },
   "devDependencies": {
     "ava": "^0.24.0",
@@ -28,8 +28,8 @@
   "jest": {
     "collectCoverage": true,
     "collectCoverageFrom": [
-       "lib/**/*.js"
-     ],
+      "lib/**/*.js"
+    ],
     "testRegex": "./test/.*/*.js$"
   }
 }
