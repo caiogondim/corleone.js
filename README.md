@@ -73,6 +73,12 @@ const imgNodes = dom.queryAll('img')
 
 ### `offset`
 
+Returns coordinates of element relative to document.
+
+```js
+const coords = dom.offset(el)
+```
+
 ---
 
 [caiogondim.com](https://caiogondim.com) &nbsp;&middot;&nbsp;
