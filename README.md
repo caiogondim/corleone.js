@@ -79,6 +79,22 @@ Returns coordinates of element relative to document.
 const coords = dom.offset(el)
 ```
 
+### `closest`
+
+Returns closest parent that matches selector.
+
+```js
+const el = dom.closest(el, '.foo')
+```
+
+### `matches`
+
+Work as an alias for `Element.prototype.matches`.
+
+```js
+const doesMatch = dom.matches(el, '.red')
+```
+
 ---
 
 [caiogondim.com](https://caiogondim.com) &nbsp;&middot;&nbsp;
