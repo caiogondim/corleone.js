@@ -18,16 +18,6 @@ test('reset style.display if set to none', () => {
   expect(div.style.display).toBe('')
 })
 
-test('reuse previous style.display if saved', () => {
-  const div = dom.create('<div class="lorem"></div>')
-  div.dataset.__corleonePrevDisplay__ = 'inline-block'
-  document.body.appendChild(div)
-
-  dom.show(div)
-
-  expect(div.style.display).toBe('inline-block')
-})
-
 test('set style.display to default value if still not visible after removing style.display = none', () => {
   const div = dom.create('<div class="lorem" style="none !important;"></div>')
   document.body.appendChild(div)
@@ -39,7 +29,7 @@ test('set style.display to default value if still not visible after removing sty
 
   dom.show(div)
 
-  expect(div.style.display).toBe('block !important')
+  expect(div.style.display).toBe('block')
 
   window.getComputedStyle = getComputedStyleRef
 })
