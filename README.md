@@ -3,7 +3,8 @@
 # corleone
 
 <div>
-  <img src="http://travis-ci.org/caiogondim/corleone.js.svg?branch=master" alt="Travis CI"> <img src="http://img.badgesize.io/caiogondim/corleone.js/master/build/corleone.umd.js?compression=gzip">
+<img src="http://travis-ci.org/caiogondim/corleone.js.svg?branch=master" alt="Travis CI" />
+<img src="http://img.badgesize.io/caiogondim/corleone.js/master/build/corleone.umd.js?compression=gzip" />
 </div>
 
 Small DOM utilities.
