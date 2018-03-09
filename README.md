@@ -1,10 +1,10 @@
 <img src="https://rawgit.com/caiogondim/corleone.js/master/logo/logo.svg" width="100%" />
 
-<div align="center">
+# corleone
+
+<div>
   <img src="http://travis-ci.org/caiogondim/corleone.js.svg?branch=master" alt="Travis CI"> <img src="http://img.badgesize.io/caiogondim/corleone.js/master/build/corleone.umd.js?compression=gzip">
 </div>
-
-# corleone
 
 Small DOM utilities.
 
