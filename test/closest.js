@@ -1,3 +1,5 @@
+/* global test, expect */
+
 const dom = require('../lib')
 
 test('gets closest parent that matches selector', () => {

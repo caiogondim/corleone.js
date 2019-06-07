@@ -1,3 +1,5 @@
+/* global test, expect, HTMLElement, HTMLDivElement */
+
 const dom = require('../lib')
 
 test('creates an HTML element from a string', () => {

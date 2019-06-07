@@ -1,3 +1,5 @@
+/* global jest, test, expect, beforeEach, afterEach */
+
 const dom = require('../lib')
 
 beforeEach(() => {

@@ -1,3 +1,5 @@
+/* global test, expect */
+
 const dom = require('../lib')
 
 test('hides element', () => {
