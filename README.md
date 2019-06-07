@@ -58,18 +58,20 @@ dom.remove(dom.query('.container'))
 
 ### `query`
 
-Alias for `document.querySelector`.
+Alias for `document.querySelector`. If `rootEl` is passed,
+`rootEl.querySelector` is used.
 
 ```js
-const containerNode = dom.query('.container')
+const containerNode = dom.query('.container', [rootEl])
 ```
 
 ### `queryAll`
 
-Alias for `document.querySelectorAll`.
+Alias for `document.querySelectorAll`. If `rootEl` is passed,
+`rootEl.querySelectorAll` is used.
 
 ```js
-const imgNodes = dom.queryAll('img')
+const imgNodes = dom.queryAll('img', [rootEl])
 ```
 
 ### `offset`

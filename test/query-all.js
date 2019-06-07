@@ -1,3 +1,5 @@
+/* global test, expect, beforeEach, afterEach */
+
 const dom = require('../lib')
 
 beforeEach(() => {
@@ -29,7 +31,7 @@ test('accepts node to be queried into', () => {
   `
 
   expect(document.querySelectorAll('.foo'))
-    .toEqual(dom.queryAll('.foo', window.document));
+    .toEqual(dom.queryAll('.foo', window.document))
 
   document.body.innerHTML = ''
 })

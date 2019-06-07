@@ -1,3 +1,5 @@
+/* global test, expect, beforeEach, afterEach */
+
 const dom = require('../lib')
 
 beforeEach(() => {
@@ -30,7 +32,7 @@ test('accepts document dependency as argument', () => {
   `
 
   expect(window.document.querySelector('.foo'))
-    .toEqual(dom.query('.foo', window.document));
+    .toEqual(dom.query('.foo', window.document))
 
   document.body.innerHTML = ''
 })
